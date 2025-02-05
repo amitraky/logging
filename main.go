@@ -2,14 +2,14 @@ package logging
 
 import "log"
 
-func warning(msg string) {
-	log.Printf("WARN: ", msg)
+func Warning(msg string) {
+	log.Printf("WARN: %v", msg)
 }
 
-func info(msg string) {
-	log.Printf("INFO: ", msg)
+func Info(msg string) {
+	log.Printf("INFO: %v", msg)
 }
 
-func error(msg string) {
-	log.Printf("ERROR: ", msg)
+func Error(msg string) {
+	log.Printf("ERROR: %v", msg)
 }
